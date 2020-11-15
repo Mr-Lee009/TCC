@@ -1,26 +1,31 @@
-package com.tccspring.Helper;
+package com.tccspring.helper;
 
 import com.tccspring.model.Student;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFFont;
+import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
-public class StudentExcelExporter {
+public class StudentExcel {
     private XSSFWorkbook workbook;
     private XSSFSheet sheet;
     private List<Student> studentList;
 
-    public StudentExcelExporter(List<Student> StudentList) {
+    public StudentExcel(List<Student> StudentList) {
         this.studentList = StudentList;
         workbook = new XSSFWorkbook();
     }
@@ -98,5 +103,43 @@ public class StudentExcelExporter {
 
         outputStream.close();
 
+    }
+
+    public List<Student> importExcelFile(MultipartFile files) throws IOException {
+
+        this.studentList = new ArrayList<>();
+        XSSFWorkbook workbook = new XSSFWorkbook(files.getInputStream());
+        XSSFSheet worksheet = workbook.getSheetAt(0);
+
+        for (int index = 0; index < worksheet.getPhysicalNumberOfRows(); index++) {
+            if (index > 0) {
+                Student student = new Student();
+
+                XSSFRow row = worksheet.getRow(index);
+
+
+                long num = Long.parseLong(row.getCell(0).getStringCellValue());
+                student.setId(num);
+                student.setStudent_code( row.getCell(1).getStringCellValue());
+                student.setFullname( row.getCell(2).getStringCellValue());
+                student.setPassword( row.getCell(3).getStringCellValue());
+
+                student.setBirthday(new Date());
+                // convert string to date
+                try {
+                    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss", Locale.ENGLISH);
+                    Date date = formatter.parse(row.getCell(4).getStringCellValue());
+                    student.setBirthday(date);
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                }
+
+                long id_class = Long.parseLong(row.getCell(5).getStringCellValue());
+                student.setClass_id(Long.parseLong(String.valueOf(id_class)));
+
+                this.studentList.add(student);
+            }
+        }
+        return this.studentList;
     }
 }

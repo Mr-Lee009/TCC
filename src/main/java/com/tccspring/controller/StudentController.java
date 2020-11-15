@@ -1,11 +1,8 @@
 package com.tccspring.controller;
 
-import com.tccspring.Helper.StudentExcelExporter;
+import com.tccspring.helper.StudentExcel;
 import com.tccspring.model.Student;
 import com.tccspring.service.StudentService;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,16 +10,12 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.websocket.server.PathParam;
 import java.io.IOException;
 import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 @RestController
 public class StudentController {
@@ -80,50 +73,32 @@ public class StudentController {
 
         List<Student> listStudent = studentService.getAllStudent();
 
-        StudentExcelExporter excelExporter = new StudentExcelExporter(listStudent);
+        StudentExcel excelExporter = new StudentExcel(listStudent);
 
         excelExporter.export(response);
     }
 
-    // import data from file excel
+    // import data from file excel (fie mau dat trong resources)
     @RequestMapping(value = "/import-excel", method = RequestMethod.POST)
     public ResponseEntity<List<Student>> importExcelFile(@RequestParam("file") MultipartFile files) throws IOException {
         HttpStatus status = HttpStatus.OK;
+        List<Student> list = new ArrayList<>();
+        StudentExcel excelExporter = new StudentExcel(list);
 
-        XSSFWorkbook workbook = new XSSFWorkbook(files.getInputStream());
-        XSSFSheet worksheet = workbook.getSheetAt(0);
-
-        for (int index = 0; index < worksheet.getPhysicalNumberOfRows(); index++) {
-            if (index > 0) {
-                Student student = new Student();
-
-                XSSFRow row = worksheet.getRow(index);
-
-
-                long num = Long.parseLong(row.getCell(0).getStringCellValue());
-                student.setId(num);
-
-                student.setStudent_code( row.getCell(1).getStringCellValue());
-                student.setFullname( row.getCell(2).getStringCellValue());
-                student.setPassword( row.getCell(3).getStringCellValue());
-
-                student.setBirthday(new Date());
-                // convert string to date
-                try {
-                    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss", Locale.ENGLISH);
-                    Date date = formatter.parse(row.getCell(4).getStringCellValue());
-                    student.setBirthday(date);
-                } catch (ParseException e) {
-                    e.printStackTrace();
-                }
-
-                long id_class = Long.parseLong(row.getCell(5).getStringCellValue());
-                student.setClass_id(Long.parseLong(String.valueOf(id_class)));
-
-                studentService.AddStudent(student);
+        list = excelExporter.importExcelFile(files);
+        if(list.isEmpty()){
+            return null;
+        }
+        else {
+            for (Student s : list){
+                studentService.AddStudent(s);
             }
         }
         return new ResponseEntity<>(studentService.getAllStudent(), status);
     }
+
+
+
+
 }
 
