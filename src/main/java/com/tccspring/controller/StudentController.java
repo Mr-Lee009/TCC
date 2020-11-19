@@ -1,7 +1,7 @@
 package com.tccspring.controller;
 
+import com.tccspring.entity.StudentEntity;
 import com.tccspring.helper.StudentExcel;
-import com.tccspring.model.Student;
 import com.tccspring.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,16 +19,17 @@ import java.util.List;
 
 @RestController
 public class StudentController {
+
     @Autowired
     StudentService studentService;
 
     @RequestMapping(value = "/Student",method = RequestMethod.GET)
-    public List<Student> getAlStudent(){
+    public List<StudentEntity> getAlStudent(){
         return  studentService.getAllStudent();
     }
     @RequestMapping(value = "/Student/{id}",method = RequestMethod.GET)
-    public Student getStudentById(@PathVariable(value = "id") Long id){
-        Student student = studentService.GetStudentById(id);
+    public StudentEntity getStudentById(@PathVariable(value = "id") Long id){
+        StudentEntity student = studentService.GetStudentById(id);
         if(studentService.GetStudentById(id)!=null)
             return student;
         else
@@ -44,7 +45,7 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/Student",method = RequestMethod.POST)
-    public String addStudent(@RequestBody Student student){
+    public String addStudent(@RequestBody StudentEntity student){
         if(studentService.AddStudent(student))
             return "Add Sucess";
         else
@@ -52,7 +53,7 @@ public class StudentController {
     }
 
     @RequestMapping(value = "/Student",method = RequestMethod.PUT)
-    public String updateStudent(@RequestBody Student student){
+    public String updateStudent(@RequestBody StudentEntity student){
         if(studentService.UpdateStudent(student))
             return "Update Sucess";
         else
@@ -71,7 +72,7 @@ public class StudentController {
         String headerValue = "attachment; filename=Danh_sach_sinh_vien_" + currentDateTime + ".xlsx";
         response.setHeader(headerKey, headerValue);
 
-        List<Student> listStudent = studentService.getAllStudent();
+        List<StudentEntity> listStudent = studentService.getAllStudent();
 
         StudentExcel excelExporter = new StudentExcel(listStudent);
 
@@ -80,9 +81,9 @@ public class StudentController {
 
     // import data from file excel (fie mau dat trong resources)
     @RequestMapping(value = "/import-excel", method = RequestMethod.POST)
-    public ResponseEntity<List<Student>> importExcelFile(@RequestParam("file") MultipartFile files) throws IOException {
+    public ResponseEntity<List<StudentEntity>> importExcelFile(@RequestParam("file") MultipartFile files) throws IOException {
         HttpStatus status = HttpStatus.OK;
-        List<Student> list = new ArrayList<>();
+        List<StudentEntity> list = new ArrayList<>();
         StudentExcel excelExporter = new StudentExcel(list);
 
         list = excelExporter.importExcelFile(files);
@@ -90,7 +91,7 @@ public class StudentController {
             return null;
         }
         else {
-            for (Student s : list){
+            for (StudentEntity s : list){
                 studentService.AddStudent(s);
             }
         }

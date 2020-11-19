@@ -1,6 +1,6 @@
 package com.tccspring.helper;
 
-import com.tccspring.model.Student;
+import com.tccspring.entity.StudentEntity;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.Row;
@@ -23,9 +23,9 @@ import java.util.Locale;
 public class StudentExcel {
     private XSSFWorkbook workbook;
     private XSSFSheet sheet;
-    private List<Student> studentList;
+    private List<StudentEntity> studentList;
 
-    public StudentExcel(List<Student> StudentList) {
+    public StudentExcel(List<StudentEntity> StudentList) {
         this.studentList = StudentList;
         workbook = new XSSFWorkbook();
     }
@@ -74,7 +74,7 @@ public class StudentExcel {
         font.setFontHeight(14);
         style.setFont(font);
 
-        for (Student x : studentList) {
+        for (StudentEntity x : studentList) {
             Row row = sheet.createRow(rowCount++);
             int columnCount = 0;
 
@@ -105,7 +105,7 @@ public class StudentExcel {
 
     }
 
-    public List<Student> importExcelFile(MultipartFile files) throws IOException {
+    public List<StudentEntity> importExcelFile(MultipartFile files) throws IOException {
 
         this.studentList = new ArrayList<>();
         XSSFWorkbook workbook = new XSSFWorkbook(files.getInputStream());
@@ -113,7 +113,7 @@ public class StudentExcel {
 
         for (int index = 0; index < worksheet.getPhysicalNumberOfRows(); index++) {
             if (index > 0) {
-                Student student = new Student();
+                StudentEntity student = new StudentEntity();
 
                 XSSFRow row = worksheet.getRow(index);
 
