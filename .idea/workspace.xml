@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tccspring/controller/StudentController.class" afterPath="$PROJECT_DIR$/target/classes/com/tccspring/controller/StudentController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tccspring/service/Impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/tccspring/service/Impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/tccspring/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/com/tccspring/service/StudentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +26,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tccspring/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="114" selection-end-column="7" />
+            <state relative-caret-position="322">
+              <caret line="111" column="31" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="114" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -148,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/model/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/Helper/StudentExcelExporter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/message.properties" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StudentExcelExporter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
@@ -169,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/service/Impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/repository/StudentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tccspring/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -393,7 +403,7 @@
       <workItem from="1605766262208" duration="5838000" />
       <workItem from="1605776747397" duration="5427000" />
       <workItem from="1605783020864" duration="22000" />
-      <workItem from="1605835827538" duration="4747000" />
+      <workItem from="1605835827538" duration="5232000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
@@ -430,11 +440,18 @@
       <option name="project" value="LOCAL" />
       <updated>1605840873581</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Merge branch 'main' of https://github.com/Mr-Lee009/TCC into main&#10;&#10;# Conflicts:&#10;#&#9;README.md">
+      <created>1605840902276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605840902276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57886000" />
+    <option name="totallyTimeSpent" value="58371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -573,16 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-680">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -934,11 +941,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tccspring/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="114" selection-end-column="7" />
+        <state relative-caret-position="322">
+          <caret line="111" column="31" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="114" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
