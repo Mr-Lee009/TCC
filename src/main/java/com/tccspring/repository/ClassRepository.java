@@ -1,0 +1,1 @@
+package com.tccspring.repository;import com.tccspring.entity.ClassEntity;import org.springframework.data.jpa.repository.JpaRepository;public interface ClassRepository extends JpaRepository<ClassEntity,Long> {}
