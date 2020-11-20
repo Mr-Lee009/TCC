@@ -3,6 +3,7 @@ package com.tccspring.controller;
 import com.tccspring.entity.StudentEntity;
 import com.tccspring.helper.StudentExcel;
 import com.tccspring.service.StudentService;
+import org.hibernate.annotations.Parameter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -98,7 +99,20 @@ public class StudentController {
         return new ResponseEntity<>(studentService.getAllStudent(), status);
     }
 
-
+//    @RequestMapping(value = "/Student/ChangePassword?usercode={UserCode}&OldPass={OldPass}&NewPass={NewPass}",method = RequestMethod.GET)
+//    public String changePassword(@PathVariable("UserCode") String UserCode,
+//                                 @PathVariable("OldPass") String OldPass,
+//                                 @PathVariable("NewPass") String NewPass){
+//
+//        try{
+//            if(studentService.ChangePassword(UserCode,OldPass,NewPass)){
+//                return "Change Password Success";
+//            }
+//            return "Change Password Fail";
+//        }catch (Exception e){
+//            return "Change Password Fail";
+//        }
+//    }
 
 
 }

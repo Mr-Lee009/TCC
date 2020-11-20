@@ -73,7 +73,7 @@ public class StudentEntity {
         this.class_id = class_id;
     }
 
-    public boolean isIs_monitor() {
+    public boolean getIs_monitor() {
         return is_monitor;
     }
 

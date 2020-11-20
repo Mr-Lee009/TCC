@@ -89,7 +89,7 @@ public class StudentExcel {
 
             createCell(row, columnCount++,formatter.format(date), style);
             createCell(row, columnCount++, x.getClass_id().toString(), style);
-            createCell(row, columnCount++, x.isIs_monitor(), style);
+            createCell(row, columnCount++, x.getIs_monitor(), style);
         }
     }
 

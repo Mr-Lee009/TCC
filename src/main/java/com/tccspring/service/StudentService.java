@@ -10,4 +10,7 @@ public interface StudentService {
     boolean DeleteStudent(Long id);
     StudentEntity GetStudentById(Long id);
     List<StudentEntity> getAllStudent();
+
+
+    boolean ChangePassword(String usercode,String currentPass,String newPass);
 }
