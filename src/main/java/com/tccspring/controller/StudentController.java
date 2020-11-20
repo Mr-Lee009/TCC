@@ -99,21 +99,25 @@ public class StudentController {
         return new ResponseEntity<>(studentService.getAllStudent(), status);
     }
 
-//    @RequestMapping(value = "/Student/ChangePassword?usercode={UserCode}&OldPass={OldPass}&NewPass={NewPass}",method = RequestMethod.GET)
-//    public String changePassword(@PathVariable("UserCode") String UserCode,
-//                                 @PathVariable("OldPass") String OldPass,
-//                                 @PathVariable("NewPass") String NewPass){
-//
-//        try{
-//            if(studentService.ChangePassword(UserCode,OldPass,NewPass)){
-//                return "Change Password Success";
-//            }
-//            return "Change Password Fail";
-//        }catch (Exception e){
-//            return "Change Password Fail";
-//        }
-//    }
+    @RequestMapping(value = "/Student/ChangePassword",method = RequestMethod.POST)
+    public String changePassword(@RequestBody ChangPass changPass){
+        try{
+            if(studentService.ChangePassword(changPass.UserCode,changPass.OldPass,changPass.NewPass)){
+                return "Change Password Success";
+            }
+            return "Change Password Fail";
+        }catch (Exception e){
+            return "Change Password Fail";
+        }
+    }
 
 
 }
+
+class ChangPass{
+    public String UserCode;
+    public String OldPass;
+    public String NewPass;
+}
+
 

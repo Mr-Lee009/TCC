@@ -10,6 +10,6 @@ import java.util.List;
 @Repository
 public interface StudentRepository extends JpaRepository<StudentEntity,Long> {
 
-    @Query(value = "select s from student s where s.student_code = ?1 and s.password = ?2",nativeQuery = true)
+    @Query(value = "select * from student as s where s.student_code = ?1 and s.password = ?2",nativeQuery = true)
     StudentEntity findOneByStudentCodeAndPassword(String student_code, String password);
 }
