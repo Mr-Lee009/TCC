@@ -66,7 +66,7 @@ public class StudentExcel {
     }
 
 
-    private void writeDataLines() {
+    private void writeDataLines(String ...arr) {
         int rowCount = 1;
 
         CellStyle style = workbook.createCellStyle();
