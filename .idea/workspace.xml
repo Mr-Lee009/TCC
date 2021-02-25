@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code ClassRepo">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StudentExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StudentExcel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +163,7 @@
       <workItem from="1605776747397" duration="5427000" />
       <workItem from="1605783020864" duration="22000" />
       <workItem from="1605835827538" duration="5232000" />
-      <workItem from="1614247209042" duration="469000" />
+      <workItem from="1614247209042" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
