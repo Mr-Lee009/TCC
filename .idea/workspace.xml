@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code PDF">
-      <change afterPath="$PROJECT_DIR$/target/classes/ExcelFile/import.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/controller/ChangPass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/entity/ClassEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/entity/DepartmentEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/entity/StudentEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/helper/PDFUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/helper/StudentExcel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/repository/ClassRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/tccspring/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/database.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/database/database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/PDFUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/PDFUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tccspring/helper/PDFUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tccspring/helper/PDFUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="TCC" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,10 +54,10 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Mr.Robot\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1oy7vZ6I1vG1cdYj7gLK5ZRrdz3" />
@@ -72,7 +66,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -82,6 +75,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -128,6 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -166,6 +171,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -197,6 +203,9 @@
       <workItem from="1605783020864" duration="22000" />
       <workItem from="1605835827538" duration="5232000" />
       <workItem from="1614247209042" duration="4422000" />
+      <workItem from="1614268819284" duration="4118000" />
+      <workItem from="1614434979920" duration="329000" />
+      <workItem from="1614446103864" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
@@ -338,17 +347,17 @@
             <State>
               <option name="LONG_EDGES_VISIBLE" value="true" />
               <option name="BEK_SORT_TYPE" value="1" />
-              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -369,21 +378,25 @@
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="437" y="6" width="944" height="855" key="CommitChangelistDialog2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614249036842" />
-    <state width="1554" height="184" key="GridCell.Tab.0.bottom" timestamp="1614251651047">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state width="1300" height="176" key="GridCell.Tab.0.bottom" timestamp="1614447738270">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1300" height="176" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1614447738270" />
     <state width="1554" height="184" key="GridCell.Tab.0.bottom/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1554" height="184" key="GridCell.Tab.0.center" timestamp="1614251651047">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state width="1300" height="176" key="GridCell.Tab.0.center" timestamp="1614447738255">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1300" height="176" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1614447738255" />
     <state width="1554" height="184" key="GridCell.Tab.0.center/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1554" height="184" key="GridCell.Tab.0.left" timestamp="1614251651047">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state width="1300" height="176" key="GridCell.Tab.0.left" timestamp="1614447738255">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1300" height="176" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1614447738255" />
     <state width="1554" height="184" key="GridCell.Tab.0.left/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1554" height="184" key="GridCell.Tab.0.right" timestamp="1614251651047">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state width="1300" height="176" key="GridCell.Tab.0.right" timestamp="1614447738270">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state width="1300" height="176" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1614447738270" />
     <state width="1554" height="184" key="GridCell.Tab.0.right/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
     <state x="398" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614251684346">
       <screen x="0" y="0" width="1600" height="864" />
@@ -393,6 +406,10 @@
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247601589" />
+    <state x="336" y="162" key="run.anything.popup" timestamp="1614272329027">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1614272329027" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
