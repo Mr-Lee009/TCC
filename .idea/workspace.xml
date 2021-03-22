@@ -8,11 +8,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code PDF">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code PDF update sua table">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/test/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/PDFUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/PDFUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tccspring/helper/PDFUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tccspring/helper/PDFUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <recent name="C:\Users\Mr.Robot\IdeaProjects\SpringBoot\src\main\resources\ExcelFile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PDFUtil">
+  <component name="RunManager" selected="Application.StringUtil">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -102,8 +101,36 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tccspring.test.HashMapTest" />
+      <module name="SpringBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tccspring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PDFUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tccspring.helper.PDFUtil" />
+      <module name="SpringBoot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tccspring.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tccspring.helper.StringUtil" />
       <module name="SpringBoot" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -167,6 +194,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.PDFUtil" />
       </list>
     </recent_temporary>
@@ -205,7 +234,9 @@
       <workItem from="1614247209042" duration="4422000" />
       <workItem from="1614268819284" duration="4118000" />
       <workItem from="1614434979920" duration="329000" />
-      <workItem from="1614446103864" duration="1633000" />
+      <workItem from="1614446103864" duration="2684000" />
+      <workItem from="1614526217421" duration="87000" />
+      <workItem from="1616431504470" duration="962000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
@@ -298,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614249036912</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update code PDF update sua table">
+      <created>1614447848898</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1614447848898</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,40 +405,43 @@
     <MESSAGE value="update readme" />
     <MESSAGE value="update code ClassRepo" />
     <MESSAGE value="update code PDF" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code PDF" />
+    <MESSAGE value="update code PDF update sua table" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code PDF update sua table" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1614247231732">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247231732" />
-    <state x="437" y="6" width="944" height="855" key="CommitChangelistDialog2" timestamp="1614249036842">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state x="371" y="5" width="944" height="855" key="CommitChangelistDialog2" timestamp="1614447848009">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="371" y="5" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1614447848009" />
     <state x="437" y="6" width="944" height="855" key="CommitChangelistDialog2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614249036842" />
-    <state width="1300" height="176" key="GridCell.Tab.0.bottom" timestamp="1614447738270">
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom" timestamp="1614448883687">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1300" height="176" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1614447738270" />
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
     <state width="1554" height="184" key="GridCell.Tab.0.bottom/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1300" height="176" key="GridCell.Tab.0.center" timestamp="1614447738255">
+    <state width="1317" height="178" key="GridCell.Tab.0.center" timestamp="1614448883687">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1300" height="176" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1614447738255" />
+    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
     <state width="1554" height="184" key="GridCell.Tab.0.center/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1300" height="176" key="GridCell.Tab.0.left" timestamp="1614447738255">
+    <state width="1317" height="178" key="GridCell.Tab.0.left" timestamp="1614448883687">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1300" height="176" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1614447738255" />
+    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
     <state width="1554" height="184" key="GridCell.Tab.0.left/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1300" height="176" key="GridCell.Tab.0.right" timestamp="1614447738270">
+    <state width="1317" height="178" key="GridCell.Tab.0.right" timestamp="1614448883687">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1300" height="176" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1614447738270" />
+    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
     <state width="1554" height="184" key="GridCell.Tab.0.right/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state x="398" y="167" key="Vcs.Push.Dialog.v2" timestamp="1614251684346">
-      <screen x="0" y="0" width="1600" height="864" />
+    <state x="338" y="141" key="Vcs.Push.Dialog.v2" timestamp="1614447906014">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
+    <state x="338" y="141" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1614447906014" />
     <state x="398" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251684346" />
     <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614247601589">
       <screen x="0" y="0" width="1600" height="864" />
