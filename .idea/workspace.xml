@@ -8,10 +8,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code PDF update sua table">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/test/HashMapTest.java" afterDir="false" />
+    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="Regular Expression trong Java (String Util)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tccspring/helper/StringUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,17 +24,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>return \&quot;hello\&quot;\;\n</find>
-      <find>StudentExcelExporter</find>
-      <find>jpa</find>
-      <find>Dialect</find>
-      <find>spring-boot-starter-web&lt;</find>
-      <find>LocalContainerEntityManagerFactoryBean</find>
-      <find>org.hibernate.dialect.MySQL5InnoDBDialect</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -149,17 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -236,7 +213,9 @@
       <workItem from="1614434979920" duration="329000" />
       <workItem from="1614446103864" duration="2684000" />
       <workItem from="1614526217421" duration="87000" />
-      <workItem from="1616431504470" duration="962000" />
+      <workItem from="1616431504470" duration="1039000" />
+      <workItem from="1616466924529" duration="598000" />
+      <workItem from="1616689013056" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
@@ -336,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614447848898</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Regular Expression trong Java (String Util)">
+      <created>1616433034972</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616433034972</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -406,47 +392,52 @@
     <MESSAGE value="update code ClassRepo" />
     <MESSAGE value="update code PDF" />
     <MESSAGE value="update code PDF update sua table" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code PDF update sua table" />
+    <MESSAGE value="Regular Expression trong Java (String Util)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regular Expression trong Java (String Util)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1614247231732">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247231732" />
-    <state x="371" y="5" width="944" height="855" key="CommitChangelistDialog2" timestamp="1614447848009">
+    <state x="371" y="0" width="944" height="855" key="CommitChangelistDialog2" timestamp="1616433034129">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="371" y="5" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1614447848009" />
+    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1616433034129" />
     <state x="437" y="6" width="944" height="855" key="CommitChangelistDialog2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614249036842" />
-    <state width="1317" height="178" key="GridCell.Tab.0.bottom" timestamp="1614448883687">
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom" timestamp="1616690941560">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
+    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
     <state width="1554" height="184" key="GridCell.Tab.0.bottom/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.center" timestamp="1614448883687">
+    <state width="1317" height="178" key="GridCell.Tab.0.center" timestamp="1616690941560">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
+    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
     <state width="1554" height="184" key="GridCell.Tab.0.center/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.left" timestamp="1614448883687">
+    <state width="1317" height="178" key="GridCell.Tab.0.left" timestamp="1616690941559">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
+    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616690941559" />
     <state width="1554" height="184" key="GridCell.Tab.0.left/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.right" timestamp="1614448883687">
+    <state width="1317" height="178" key="GridCell.Tab.0.right" timestamp="1616690941560">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1614448883687" />
+    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
     <state width="1554" height="184" key="GridCell.Tab.0.right/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state x="338" y="141" key="Vcs.Push.Dialog.v2" timestamp="1614447906014">
+    <state x="338" y="141" key="Vcs.Push.Dialog.v2" timestamp="1616433046345">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="338" y="141" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1614447906014" />
+    <state x="338" y="141" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1616433046345" />
     <state x="398" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251684346" />
     <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614247601589">
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247601589" />
+    <state x="387" y="97" width="585" height="534" key="find.popup" timestamp="1616690564203">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="387" y="97" width="585" height="534" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1616690564203" />
     <state x="336" y="162" key="run.anything.popup" timestamp="1614272329027">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
