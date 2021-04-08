@@ -56,3 +56,4 @@ create table thongke(
     READING INT,
 	LISTENING INT
 );
+-- day la nhanh code moi thu 4 Ahihi do ngoc
