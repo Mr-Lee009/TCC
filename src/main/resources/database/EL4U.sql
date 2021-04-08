@@ -56,4 +56,4 @@ create table thongke(
     READING INT,
 	LISTENING INT
 );
--- day la nhanh cua duc
+-- day la nhanh cua huan hoa hong
