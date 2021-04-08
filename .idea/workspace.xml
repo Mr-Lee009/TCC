@@ -9,8 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="Regular Expression trong Java &#10;Kiem tra ten file ton tai">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,10 +458,10 @@
       <screen x="0" y="0" width="1600" height="864" />
     </state>
     <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247601589" />
-    <state x="387" y="97" width="585" height="534" key="find.popup" timestamp="1616690564203">
+    <state x="387" y="97" width="585" height="624" key="find.popup" timestamp="1617902006107">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="387" y="97" width="585" height="534" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1616690564203" />
+    <state x="387" y="97" width="585" height="624" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1617902006107" />
     <state x="336" y="162" key="run.anything.popup" timestamp="1614272329027">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
