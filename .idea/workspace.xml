@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BranchesTreeState">
     <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="Regular Expression trong Java &#10;Kiem tra ten file ton tai">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" afterDir="false" />
+    <list default="true" id="587346c8-2fc1-4b8f-a443-3db96e15ca31" name="Default" comment="update code ClassRepo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database/EL4U.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,41 +32,38 @@
         <option value="Mr_Lee009 &lt;ducmta270897@gmail.com&gt;" />
       </list>
     </option>
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LEANHDUC1" />
+        <entry key="$PROJECT_DIR$" value="Duc" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\Mr.Robot\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectId" id="1oy7vZ6I1vG1cdYj7gLK5ZRrdz3" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="2" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -137,13 +134,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,14 +182,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.StringUtil" />
-        <item itemvalue="Application.HashMapTest" />
         <item itemvalue="Application.PDFUtil" />
+        <item itemvalue="Application.HashMapTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -219,16 +214,6 @@
       <workItem from="1605776747397" duration="5427000" />
       <workItem from="1605783020864" duration="22000" />
       <workItem from="1605835827538" duration="5232000" />
-      <workItem from="1614247209042" duration="4422000" />
-      <workItem from="1614268819284" duration="4118000" />
-      <workItem from="1614434979920" duration="329000" />
-      <workItem from="1614446103864" duration="2684000" />
-      <workItem from="1614526217421" duration="87000" />
-      <workItem from="1616431504470" duration="1039000" />
-      <workItem from="1616466924529" duration="598000" />
-      <workItem from="1616689013056" duration="1927000" />
-      <workItem from="1616690962707" duration="278000" />
-      <workItem from="1616950884828" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="update message project">
       <created>1604974936280</created>
@@ -300,49 +285,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605866449341</updated>
     </task>
-    <task id="LOCAL-00011" summary="update code ClassRepo">
-      <created>1605866724412</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1605866724412</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update code ClassRepo">
-      <created>1614248762112</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1614248762112</updated>
-    </task>
-    <task id="LOCAL-00013" summary="update code PDF">
-      <created>1614249036912</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1614249036912</updated>
-    </task>
-    <task id="LOCAL-00014" summary="update code PDF update sua table">
-      <created>1614447848898</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1614447848898</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Regular Expression trong Java (String Util)">
-      <created>1616433034972</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1616433034972</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Regular Expression trong Java &#10;Kiem tra ten file ton tai">
-      <created>1616691047507</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1616691047507</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,31 +304,6 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:/home/ducla/GIT/TTC/TCC/src/main/java" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -396,77 +314,16 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="1" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="update message project" />
     <MESSAGE value="Merge branch 'main' of https://github.com/Mr-Lee009/TCC into main&#10;&#10;# Conflicts:&#10;#&#9;README.md" />
+    <MESSAGE value="update code ClassRepo" />
     <MESSAGE value="update code readme" />
     <MESSAGE value="update readme" />
-    <MESSAGE value="update code ClassRepo" />
-    <MESSAGE value="update code PDF" />
-    <MESSAGE value="update code PDF update sua table" />
-    <MESSAGE value="Regular Expression trong Java (String Util)" />
-    <MESSAGE value="Regular Expression trong Java &#10;Kiem tra ten file ton tai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regular Expression trong Java &#10;Kiem tra ten file ton tai" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="69" y="205" key="#SQL_Dialects" timestamp="1616950945605">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="69" y="205" key="#SQL_Dialects/0.0.1360.728@0.0.1360.728" timestamp="1616950945605" />
-    <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1614247231732">
-      <screen x="0" y="0" width="1600" height="864" />
-    </state>
-    <state x="651" y="323" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247231732" />
-    <state x="371" y="0" width="944" height="855" key="CommitChangelistDialog2" timestamp="1616691046429">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="371" y="0" key="CommitChangelistDialog2/0.0.1360.728@0.0.1360.728" timestamp="1616691046429" />
-    <state x="437" y="6" width="944" height="855" key="CommitChangelistDialog2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614249036842" />
-    <state width="1317" height="178" key="GridCell.Tab.0.bottom" timestamp="1616690941560">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
-    <state width="1554" height="184" key="GridCell.Tab.0.bottom/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.center" timestamp="1616690941560">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
-    <state width="1554" height="184" key="GridCell.Tab.0.center/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.left" timestamp="1616690941559">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1616690941559" />
-    <state width="1554" height="184" key="GridCell.Tab.0.left/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state width="1317" height="178" key="GridCell.Tab.0.right" timestamp="1616690941560">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state width="1317" height="178" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1616690941560" />
-    <state width="1554" height="184" key="GridCell.Tab.0.right/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251651047" />
-    <state x="338" y="141" key="Vcs.Push.Dialog.v2" timestamp="1616691062070">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="338" y="141" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1616691062070" />
-    <state x="398" y="167" key="Vcs.Push.Dialog.v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614251684346" />
-    <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614247601589">
-      <screen x="0" y="0" width="1600" height="864" />
-    </state>
-    <state x="595" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.864/1600.0.1440.900@0.0.1600.864" timestamp="1614247601589" />
-    <state x="387" y="97" width="585" height="534" key="find.popup" timestamp="1616690564203">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="387" y="97" width="585" height="534" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1616690564203" />
-    <state x="336" y="162" key="run.anything.popup" timestamp="1614272329027">
-      <screen x="0" y="0" width="1360" height="728" />
-    </state>
-    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1614272329027" />
+    <option name="LAST_COMMIT_MESSAGE" value="update readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
